@@ -1,0 +1,247 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* ===================
+    ALL PAGE FXED: Purple Theme
+   =================== */
+
+.header-container {
+    border-bottom: 20px solid #5A0DA8;
+}
+
+.header-container,
+header{
+    position: relative;
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid #5A0DA8;
+}
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.title {
+    color: white;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #A627BF;
+}
+
+/* ===================
+    MOVING PAGE : Purple Theme
+   =================== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    border: 1px transparent;
+    border-radius:20px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+    color: white;
+    background: #5A0DA8;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background: #300E40;
+}
+
+.main {
+    padding: 30px 0;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+.choosed{
+    background: #300E40;
+}
+
+/* ==========================================================================
+   Media Queries for Responsive Design.
+   Modify as content requires.
+   ========================================================================== */
+
+/* ====================
+MIN SIZE
+==================== */
+@media only screen and (min-width: 10em) {
+    .header-container {
+        border-bottom: 20px solid #0408FF;
+    }
+
+    .footer-container,
+    .main aside {
+        border-top: 20px solid #0408FF;
+    }
+
+    
+    .choosed{
+        background: #03157A;
+    }
+
+    .header-container,
+    .footer-container,
+    .main aside {
+        background: #2676E3;
+    }
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+        background: #0408FF;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+    nav a:hover {
+        background: #03157A;
+    }
+
+    /*
+        IE stuff
+    */
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+
+}
+
+/* ====================
+WIDE SIZE
+==================== */
+@media only screen and (min-width: 35em) {
+    .header-container {
+        border-bottom: 20px solid #2F0B91;
+    }
+
+    .footer-container,
+    .main aside {
+        border-top: 20px solid #2F0B91;
+    }
+
+     .choosed{
+        background: #9E3287;
+    }
+
+    nav a:hover {
+        background: #9E3287;
+    }
+
+    nav a {
+        background: #2F0B91;
+    }
+
+    nav {
+        margin-top: 0;
+    }
+
+    .header-container,
+    .footer-container,
+    .main aside {
+        background: #2676E3;
+    }
+}
+
+/* ====================
+MAX SIZE
+==================== */
+@media only screen and (min-width: 50em) {
+
+    .header-container {
+        border-bottom: 20px solid #5A0DA8;
+    }
+
+    .footer-container,
+    .main aside {
+        border-top: 20px solid #5A0DA8;
+    }
+
+    nav a:hover {
+        background: #300E40;
+    }
+
+    nav a {
+        background: #5A0DA8;
+    }
+
+     .choosed{
+        background: #300E40;
+    }
+
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        margin-top: 1.5em;
+        float: right;
+        width: 38%;
+    }
+    
+
+    .header-container,
+    .footer-container,
+    .main aside {
+        background: #A627BF;
+    }
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+}
+
+/* ====================
+GIGA SIZE
+==================== */
+@media only screen and (min-width: 70em) {
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
