@@ -53,12 +53,14 @@ nav a {
     font-weight: bold;
 
     border: 1px transparent;
-    border-radius:20px;
+    border-radius:15px;
+/*    
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
+*/
 
     color: white;
-    background: #5A0DA8;
+    background: #0408FF;
 }
 
 nav a:hover,
@@ -68,7 +70,7 @@ nav a:visited {
 
 nav a:hover {
     text-decoration: underline;
-    background: #300E40;
+    background: #03157A;
 }
 
 .main {
@@ -81,7 +83,7 @@ nav a:hover {
 }
 
 .choosed{
-    background: #300E40;
+    background: #03157A;
 }
 
 /* ==========================================================================
@@ -102,17 +104,13 @@ MIN SIZE
         border-top: 20px solid #0408FF;
     }
 
-    
-    .choosed{
-        background: #03157A;
-    }
-
     .header-container,
     .footer-container,
     .main aside {
         background: #2676E3;
     }
 
+    /*
     nav a {
         float: left;
         width: 27%;
@@ -133,6 +131,7 @@ MIN SIZE
     nav a:hover {
         background: #03157A;
     }
+    /*
 
     /*
         IE stuff
@@ -161,11 +160,41 @@ WIDE SIZE
     }
 
      .choosed{
-        background: #9E3287;
+        background: #300E40;
+    }
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
     }
 
     nav a:hover {
-        background: #9E3287;
+        background: #300E40;
     }
 
     nav a {
