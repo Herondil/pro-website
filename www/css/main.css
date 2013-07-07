@@ -3,7 +3,7 @@
    ========================================================================== */
 
 /* ===================
-    ALL PAGE FXED: Purple Theme
+   Min purple theme
    =================== */
 
 .header-container {
@@ -54,10 +54,6 @@ nav a {
 
     border: 1px transparent;
     border-radius:15px;
-/*    
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-*/
 
     color: white;
     background: #0408FF;
@@ -80,6 +76,7 @@ nav a:hover {
 .footer-container footer {
     color: white;
     padding: 20px 0;
+    height: 100%;
 }
 
 .choosed{
@@ -109,29 +106,6 @@ MIN SIZE
     .main aside {
         background: #2676E3;
     }
-
-    /*
-    nav a {
-        float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
-        margin-bottom: 0;
-        background: #0408FF;
-    }
-
-    nav li:first-child a {
-        margin-left: 0;
-    }
-
-    nav li:last-child a {
-        margin-right: 0;
-    }
-
-    nav a:hover {
-        background: #03157A;
-    }
-    /*
 
     /*
         IE stuff
@@ -180,10 +154,6 @@ WIDE SIZE
     nav li:last-child a {
         margin-right: 0;
     }
-
-/* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
 
     nav ul li {
         display: inline;
@@ -262,6 +232,81 @@ MAX SIZE
            -moz-box-shadow: 0 5px 10px #aaa;
                 box-shadow: 0 5px 10px #aaa;
     }
+
+    .wrapper {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+
+    .projects-container 
+    article {
+        width: 100%; 
+    }
+
+    .project{
+        margin: 15px 0px;
+    }
+
+    .project
+    aside{
+        margin-top: 30px;
+        border: 1px solid #03497A;
+        border-radius: 2px;
+        height: 300px;
+    }
+
+    .article-left
+    article{
+        float: left;
+        width: 49%;
+    }
+
+    .article-left
+    aside{
+        float: right;
+        width: 50%;
+    }
+
+    .article-left
+    aside{
+        -webkit-box-shadow: 10px 10px 10px #AD5;
+           -moz-box-shadow: 10px 10px 10px #AD5;
+                box-shadow: 10px 10px 10px #AD5;
+    }
+
+    .article-right
+    article{
+        float: right;
+        text-align: right;
+        width: 49%;
+    }
+
+    .article-right
+    aside{
+        float: left;
+        width: 50%;
+    }   
+
+    .article-right
+    aside{
+        -webkit-box-shadow: -10px 10px 10px #AD5;
+           -moz-box-shadow: -10px 10px 10px #AD5;
+                box-shadow: -10px 10px 10px #AD5;
+    }
+
+    .cv-container{
+        margin: 20px 20px;
+    }
 }
 
 /* ====================
@@ -270,7 +315,15 @@ GIGA SIZE
 @media only screen and (min-width: 70em) {
 
     .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
+        width: 876px; /*10% for magins !*/
         margin: 0 auto;
+    }
+
+    .cv-container{
+        padding: 60px 40px;
+    }
+
+    .home-container{
+        padding: 225px 0px;
     }
 }
