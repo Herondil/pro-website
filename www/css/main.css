@@ -6,6 +6,8 @@
    Min purple theme
    =================== */
 
+
+
 .header-container {
     border-bottom: 20px solid #5A0DA8;
 }
@@ -77,6 +79,12 @@ nav a:hover {
     color: white;
     padding: 20px 0;
     height: 100%;
+}
+
+.footer-container{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 .choosed{
@@ -324,6 +332,6 @@ GIGA SIZE
     }
 
     .home-container{
-        padding: 225px 0px;
+        padding: 40px 0px;
     }
 }
