@@ -6,7 +6,14 @@
    Min purple theme
    =================== */
 
+html,body{
+    height: 100%
+}
 
+.holder{
+    min-height: 100%;
+    position: relative;
+}
 
 .header-container {
     border-bottom: 20px solid #5A0DA8;
@@ -14,7 +21,6 @@
 
 .header-container,
 header{
-    position: relative;
 }
 
 .footer-container,
@@ -84,11 +90,28 @@ nav a:hover {
 .footer-container{
     position: absolute;
     width: 100%;
+    /*
+    bottom: 0px;
+    */
+
     bottom: 0;
+    height: 100px;
+    left: 0;
+    position: absolute;
+    right: 0;
 }
 
+/*
+.home-footer-container{
+    bottom: 0px;
+}
+*/
 .choosed{
     background: #03157A;
+}
+
+.main-container{
+    padding-bottom: 100px;
 }
 
 /* ==========================================================================
@@ -331,7 +354,10 @@ GIGA SIZE
         padding: 60px 40px;
     }
 
+
+    /*
     .home-container{
         padding: 40px 0px;
     }
+    */
 }
