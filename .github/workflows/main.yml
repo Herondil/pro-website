@@ -15,4 +15,4 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PWD }}
         local-dir: ./placeholder/www/
-        server-dir : /home/maxensdu/www/
+        server-dir : /www/
